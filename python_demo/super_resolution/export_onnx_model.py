@@ -18,8 +18,6 @@ import onnxruntime
 from PIL import Image
 import torchvision.transforms as transforms
 
-import os
-os.chdir(r'C:\\Users\\Lyb727935406\Documents\\学习资料\\MESA\\个人信息\\调研报告\\CNTK调研\\ONNXRT')
 
 class SuperResolutionNet(nn.Module):
     def __init__(self, upscale_factor, inplace=False):
